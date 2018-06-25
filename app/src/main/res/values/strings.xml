@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">VOOLOC</string>
+    <string name="Authorization_Records">授权记录</string>
+    <string name="Open_Records">开锁记录</string>
+    <string name="Select_contact">选择联系人</string>
+    <string name="Setting">个人设置</string>
+    <string name="Lock_of_Setting">门锁设置</string>
+    <string name="Correct_pw">修改密码</string>
+    <string name="Gestures_pw">手势密码</string>
+    <string name="Update">版本更新</string>
+    <string name="About">关于我们</string>
+    <string name="Problem">常见问题</string>
+    <string name="set_gesture">修改手势密码</string>
+    <string name="Exit">退出登录</string>
+    <string name="net_version">服务器版本</string>
+
+    <string name="Language">语    言</string>
+
+    <string name="Sent_PW">发送密码</string>
+    <string name="User_authorization">用户授权</string>
+    <string name="Setting_time">设置时间</string>
+    <string name="Authorization_Phone">授权号码</string>
+    <string name="Select_Lock">门锁一</string>
+    <string name="Correct_Lock_name">修改门锁名称</string>
+    <string name="Correct_Lock_address">修改门锁地址</string>
+    <string name="Setting_Lock_Pw">设置开门密码</string>
+    <string name="Open_Lock_records">开锁记录</string>
+    <string name="Delete_Lock">删除门锁</string>
+    <string name="Authorization_details">授权详情</string>
+    <string name="Lock_of_address">填写门锁信息</string>
+    <string name="unknown_device">未知设备</string>
+
+    <!--伟峰-->
+
+    <string name="country">CN</string>
+    <string name="area_number">+86</string>
+    <string name="login_button">下一步</string>
+    <string name="login">登录</string>
+    <string name="confirm">确定</string>
+    <string name="setting_password">设置密码</string>
+    <string name="input_new_password">请输入新密码</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_picture_number">请输入图片中的数字</string>
+    <string name="change_picture">看不清,换一张</string>
+    <string name="test">
+        广工服务器版本
+        Android开发组成员：\n
+        柯东煜(17875511856，\n
+        \t\t\t\t\t\t\t1198611857@qq.com)\n
+        彭进昌(17875511895）\n
+        陈伟峰(17875511892）\n
+    </string>
+    <string name="agress">同意</string>
+    <string name="disagress">不同意</string>
+    <string name="selected_areas">选择地区</string>
+    <string name="lock">门锁</string>
+    <string name="locklist">门锁列表</string>
+    <string name="add_lock">添加门锁</string>
+    <string name="search_door_lock">搜索门锁</string>
+    <string name="search_lock">搜索门锁</string>
+    <string name="set_address">请设置门锁地址</string>
+    <string name="finish">完成</string>
+    <string name="open_lock">开锁</string>
+    <string name="open_lock_news">请在三米内点击开锁</string>
+    <string name="sending_password">发送密码</string>
+    <string name="next">下一步</string>
+    <string name="sent_password_news">点击即可马上发送密码</string>
+    <string name="no_internet">没有网络！请打开网络</string>
+    <string name="JumpAfter2s">2s后跳转</string>
+    <string name="unknown_error">unknown error</string>
+    <string name="no_write_phone">未填写手机号码</string>
+    <string name="phone_number">手机号登录</string>
+    <string name="lock_list">门锁列表</string>
+    <string name="input_phone_number">请输入手机号</string>
+    <string name="input_contract">输入手机号码或邮箱</string>
+    <string name="get_contacts">从通讯录中获取联系人</string>
+    <string name="delete_permission">删除权限</string>
+    <string name="input_password1">输入密码</string>
+    <string name="send_password_by_Wechat">发送给微信或Facebook好友</string>
+    <string name="password">密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="seting_lock_name">请设置门锁名称</string>
+    <string name="once">一次性密码(两小时内有效)</string>
+    <string name="repeatedly">多次性密码(可重复性使用)</string>
+    <string name="sent_password">发送密码</string>
+    <string name="set_the_door_lock_name">请设置门锁名称</string>
+    <string name="from_now_on">从现在开始</string>
+    <string name="Enter_confirmation_code">输入验证码</string>
+    <string name="Phone_number_login">手机号登录</string>
+    <string name="input_name">输入备注名</string>
+    <string name="set_the_reset_password">设置恢复出厂密码</string>
+    <string name="delete_all_password">删除所有密码</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Update_lock_time">
+    
+    <TextView
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        style="@style/button_one"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:text="@string/update_lock_time"
+        android:textSize="@dimen/text_emphasize"
+      />
+
+</LinearLayout>

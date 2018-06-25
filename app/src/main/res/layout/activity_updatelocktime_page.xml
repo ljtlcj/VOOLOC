@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Updatelocktime_page">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/correct_back"
+            android:background="@drawable/back" />
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/update_lock_time" />
+
+        <TextView style="@style/forward" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_weight="3"
+        android:background="@drawable/guide_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center_horizontal">
+
+
+
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/button_frame"
+            android:text="@string/update_lock_time"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_emphasize" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

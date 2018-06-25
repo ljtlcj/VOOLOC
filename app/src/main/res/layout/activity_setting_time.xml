@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Setting_time">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/correct_back"
+            android:background="@drawable/back"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/Setting_time"
+            android:id="@+id/textView2" />
+
+        <TextView
+            style="@style/forward"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+            <TextView
+                style="@style/Round_shape_style"
+                android:text="1" />
+
+            <TextView
+                style="@style/Round_shape_style"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/Round_shape_style_1"
+                android:text="3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="@string/set_valid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+       >
+        <View
+            style="@style/view1"/>
+
+        <TextView
+            style="@style/TextView_style9"
+            android:textColor="@android:color/holo_red_light"
+            android:id="@+id/self"
+            android:layout_height="match_parent"
+            android:text="@string/customized" />
+        <View
+            style="@style/view1"/>
+        <TextView
+            android:id="@+id/one_day"
+            style="@style/TextView_style9"
+            android:text="@string/one_day"/>
+        <View
+            style="@style/view1"
+            />
+        <TextView
+            style="@style/TextView_style9"
+            android:id="@+id/one_week"
+            android:text="@string/a_week"/>
+        <View
+            style="@style/view1"/>
+        <TextView
+            style="@style/TextView_style9"
+            android:id="@+id/one_month"
+            android:text="@string/a_month"/>
+        <View
+            style="@style/view1"/>
+        <TextView
+            style="@style/TextView_style9"
+            android:id="@+id/one_year"
+            android:text="@string/a_year"/>
+        <View
+            style="@style/view1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/TextView_style2"
+            android:layout_width="60dp"
+            android:text="@string/start"
+            />
+
+        <TextView
+            android:id="@+id/start_time"
+            style="@style/TextView_style3"
+
+            android:text="@string/from_now_on" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/TextView_style2"
+            android:layout_width="60dp"
+            android:text="@string/end" />
+
+        <TextView
+            style="@style/TextView_style3"
+            android:text="@string/deadline"
+            android:id="@+id/end_time"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/next"
+        style="@style/TextView_style"
+        android:layout_marginTop="50dp"
+        android:text="@string/login_button" />
+
+
+</LinearLayout>

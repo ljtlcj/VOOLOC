@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Setting">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/correct_back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/Setting" />
+
+        <TextView
+            style="@style/forward"/>
+    </RelativeLayout>
+
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/correct_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/modify"
+        app:fmb_title="@string/Correct_pw"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/gesture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/icon_gesture"
+        app:fmb_title="@string/Gestures_pw"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/update"
+        app:fmb_title="@string/Update"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/language"
+        app:fmb_title="@string/Language"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/introduce"
+        app:fmb_title="@string/About"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/problem"
+        app:fmb_title="@string/Problem"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/exit"
+        app:fmb_title="@string/Exit"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/net_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/change"
+        app:fmb_title="@string/net_version"
+        />
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+
+    <!--<LinearLayout-->
+        <!--style="@style/LinearLayout_style1"-->
+        <!--android:id="@+id/correct_password"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--style="@style/icon_style"-->
+            <!--android:background="@drawable/modify"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--style="@style/SubTextSize"-->
+            <!--android:text="@string/Correct_pw"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="match_parent"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--style="@style/icon_style1"-->
+            <!--android:background="@drawable/forward"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<View-->
+        <!--style="@style/branch_background" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/gesture"-->
+        <!--style="@style/LinearLayout_style1"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--style="@style/icon_style"-->
+            <!--android:background="@drawable/icon_gesture"-->
+            <!--android:layout_centerVertical="true" />-->
+        <!--<TextView-->
+            <!--style="@style/SubTextSize"-->
+            <!--android:text="@string/Gestures_pw"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="match_parent"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--style="@style/icon_style1"-->
+            <!--android:background="@drawable/forward"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<View-->
+        <!--style="@style/branch_background" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="60dp">-->
+
+        <!--<View-->
+            <!--style="@style/branch_background"/>-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/version"-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/update"-->
+                <!--android:layout_centerVertical="true" />-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize"-->
+                <!--android:text="@string/Update"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--style="@style/branch_background"/>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/language"-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/update"-->
+                <!--android:layout_centerVertical="true" />-->
+
+            <!--<TextView-->
+                <!--style="@style/SubTextSize"-->
+                <!--android:text="@string/Language"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/about"-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/introduce"-->
+                <!--android:layout_centerVertical="true" />-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize"-->
+                <!--android:text="@string/About"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/question"-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--android:background="@drawable/problem"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--style="@style/icon_style"/>-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize"-->
+                <!--android:text="@string/Problem"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="60dp">-->
+
+        <!--<View-->
+            <!--style="@style/branch_background"/>-->
+
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--android:id="@+id/logout"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/exit"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize"-->
+                <!--android:text="@string/Exit"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+        <!--<LinearLayout-->
+        <!--style="@style/LinearLayout_style1"-->
+        <!--android:id="@+id/net_version"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--style="@style/icon_style"-->
+            <!--android:background="@drawable/exit"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView4"-->
+                <!--style="@style/SubTextSize"-->
+                <!--android:text="@string/net_version" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="match_parent"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--style="@style/icon_style1"-->
+            <!--android:background="@drawable/forward"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--/>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

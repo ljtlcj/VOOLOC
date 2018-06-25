@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Authorization_Phone">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor"
+        >
+            <TextView
+                android:id="@+id/back"
+                style="@style/correct_back"
+                android:background="@drawable/back"/>
+
+            <TextView
+                style="@style/banerText"
+                android:text="@string/Authorization_Phone" />
+
+            <TextView
+                style="@style/forward"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Round_shape_style_1"
+            android:text="1" />
+
+        <TextView
+            style="@style/Round_shape_style"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Round_shape_style"
+            android:text="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/login_text_size"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/contract"
+            android:textColor="@color/Tip1"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="14dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:background="@drawable/back1" />-->
+
+        <!--<TextView-->
+            <!--style="@style/login_text_size"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/area_number" />-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:hint="@string/input_contract"
+            android:id="@+id/phone"
+            android:lines="1"
+            android:textColorHint="@color/colorhint"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextView_style4"
+        android:text="@string/get_contacts"
+        android:id="@+id/get_phone"
+        android:layout_marginRight="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/name_line"
+        android:visibility="invisible"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/login_text_size"
+            android:layout_width="64dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/beizhu"
+            android:textColor="@color/Tip1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:hint="@string/input_name"
+            android:id="@+id/name"
+            android:lines="1"
+            android:maxLength="11"
+            android:textColorHint="@color/colorhint"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <TextView
+        style="@style/TextView_style"
+        android:text="@string/login_button"
+        android:id="@+id/next"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/TextView_style4"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/WeChat"
+            android:text="@string/send_password_by_Wechat"
+
+            />
+    </LinearLayout>
+</LinearLayout>

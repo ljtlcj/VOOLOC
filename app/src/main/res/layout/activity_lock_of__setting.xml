@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Lock_of_Setting">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/Lock_of_Setting" />
+
+        <TextView
+            style="@style/forward"/>
+    </RelativeLayout>
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/correct_lock_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/modify"
+        app:fmb_title="@string/Correct_Lock_name"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/correct_lock_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/modify"
+        app:fmb_title="@string/Correct_Lock_address"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/set_open_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/password"
+        app:fmb_title="@string/Setting_Lock_Pw"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/updated_lock_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/update_lock_time"
+        app:fmb_title="@string/update_lock_time"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/open_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/record"
+        app:fmb_title="@string/Open_Lock_records"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/giver_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/record"
+        app:fmb_title="@string/Authorization_Records"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/delete_all_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/delete"
+        app:fmb_title="@string/delete_all_password"
+        />
+    <test.xk_ys_VOOLOC.MyView.MyFastMenuBar
+        android:id="@+id/delete_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fmb_animation_type="fmb_fade"
+        app:fmb_icon="@drawable/delete"
+        app:fmb_title="@string/Delete_Lock"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--android:id="@+id/correct_lock_name"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/modify"-->
+                <!--android:layout_centerVertical="true" />-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize1"-->
+                <!--android:text="@string/Correct_Lock_name"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--android:id="@+id/correct_lock_address"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/modify"-->
+                <!--android:layout_centerVertical="true" />-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize1"-->
+                <!--android:text="@string/Correct_Lock_address"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--android:id="@+id/set_open_password"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/password"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize1"-->
+                <!--android:text="@string/Setting_Lock_Pw"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--android:id="@+id/updated_lock_time"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/update_lock_time"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize1"-->
+                <!--android:text="@string/update_lock_time"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="60dp">-->
+
+        <!--<View-->
+            <!--style="@style/branch_background"/>-->
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--android:id="@+id/open_record"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/record"-->
+                <!--android:layout_centerVertical="true" />-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize1"-->
+                <!--android:text="@string/Open_Lock_records"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--android:id="@+id/giver_record"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/record"-->
+                <!--android:layout_centerVertical="true" />-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize1"-->
+                <!--android:text="@string/Authorization_Records"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:id="@+id/delete_lock"-->
+        <!--android:layout_marginTop="60dp">-->
+
+        <!--<View-->
+            <!--style="@style/branch_background"/>-->
+        <!--<LinearLayout-->
+            <!--style="@style/LinearLayout_style1"-->
+            <!--&gt;-->
+            <!--<TextView-->
+                <!--style="@style/icon_style"-->
+                <!--android:background="@drawable/delete"-->
+                <!--android:layout_centerVertical="true" />-->
+            <!--<TextView-->
+                <!--style="@style/SubTextSize1"-->
+                <!--android:text="@string/Delete_Lock"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--style="@style/icon_style1"-->
+                <!--android:background="@drawable/forward"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<View-->
+            <!--style="@style/branch_background" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

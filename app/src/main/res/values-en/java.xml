@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="not_gain_user_information">Unable to get the information of user, please try again</string>
+
+    <string name="re_login">Please login again</string>
+
+    <string name="user_or_password_error">Account or password error.</string>
+
+    <string name="jump_after_one_second">jump after one second</string>
+    <string name="password_is_empty">The password is not filled</string>
+    <string name="beizhu">name</string>
+
+    <string name="login_way">Login in by E-mail</string>
+    
+    <string name="send_successful">Sent successfully</string>
+    <string name="correct_successfully">correct successfully</string>
+
+    <string name="send_code">The verification code has been sent to</string>
+
+    <string name="compare_resend">Seconds later will resend</string>
+
+    <string name="send_failure">Send failed, please try again</string>
+
+    <string name="click_send">Click to send</string>
+
+    <string name="click_send_code">Click to send verification code</string>
+
+    <string name="rewrite_code">The Verification code error, please retype</string>
+
+    <string name="register">Sign up </string>
+
+    <string name="correct_password">Reset</string>
+
+    <string name="read_error">Failed to read the information of user, please log in again </string>
+
+    <string name="pull_to_refresh"> Drop-down can refresh </string>
+
+    <string name="release_to_refresh">Release can refresh immediately</string>
+
+    <string name="refreshing"> Refreshing...</string>
+
+    <string name="not_updated_yet"> Not yet updated</string>
+
+    <string name="updated_at"> Last updated at %1$s ago </string>
+
+    <string name="updated_just_now"> Updated just now </string>
+
+    <string name="time_error"> Time is problematic</string>
+
+    <string name="lock_info_error">Failed to read the information of lock, please try again </string>
+
+    <string name="forever">Permanent</string>
+
+    <string name="year">Year</string>
+
+    <string name="month">Month</string>
+
+    <string name="day">Day</string>
+
+    <string name="set_time_error">The time settings are out of range, please reset </string>
+
+    <string name="deadline">Deadline</string>
+
+    <string name="from_now_start"> From now on</string>
+
+    <string name="certain">OK</string>
+
+    <string name="endTime_error">The deadline is before the start time </string>
+
+    <string name="unset_time">The valid time is not set</string>
+
+    <string name="add_successful"> Added successfully </string>
+
+    <string name="unconnected_lock">Cannot connect the lock, please confirm whether it is around the lock</string>
+
+    <string name="connecting_lock">Connecting Bluetooth </string>
+
+    <string name="connection_certain"> Whether to connect the lock? </string>
+
+    <string name="close"> Close </string>
+
+    <string name="info_is_empty"> Unable to read the information of lock </string>
+
+    <string name="lock_is_haven"> The lock already has employer </string>
+
+    <string name="have_a_error"> There was an error in the communication process </string>
+
+    <string name="no_write_lock_name"> The lock name is not filled </string>
+
+    <string name="reconnect_lock"> Is trying to connect the lock </string>
+
+    <string name="correct_fault"> Failed to edit </string>
+
+    <string name="delete_fault"> Failed to delete , please try again </string>
+
+    <string name="delete_successful"> Deleted successfully </string>
+
+    <string name="lock_tip"> The tips of lock </string>
+
+    <string name="cancel"> Cancel </string>
+
+    <string name="certain_delete_lock"> Whether to delete this lock? </string>
+
+    <string name="set_lock_password"> Set the password of lock </string>
+
+    <string name="password_not_write"> The password is not finished </string>
+
+    <string name="set_password_time"> Set the valid time of password</string>
+
+    <string name="power_is_enough"> Not enough authority </string>
+
+    <string name="setting_succssful"> Setting success </string>
+
+    <string name="advanced"> Advanced permission </string>
+
+    <string name="popular"> Normal permissions </string>
+
+    <string name="giver_succ"> Authorized success </string>
+
+    <string name="no_this_customer"> This account does not exist</string>
+
+    <string name="had_this_lock"> The account already has this lock </string>
+
+    <string name="regiver"> Please try again</string>
+
+    <string name="giver"> Authorize </string>
+
+    <string name="start">Start : </string>
+
+    <string name="end">End   : </string>
+
+    <string name="cn86">CN > +86</string>
+
+    <string name="set_valid">set the valid time</string>
+
+    <string name="update_lock_time">update the time of lock</string>
+
+    <string name="customized">customized</string>
+    <string name="one_day">One day</string>
+    <string name="a_week">A week</string>
+    <string name="a_month">A month</string>
+    <string name="a_year">A year</string>
+
+    <string name="contract">Contract</string>
+</resources>

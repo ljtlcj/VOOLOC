@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.search_door_lock">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/search_door_lock" />
+
+        <TextView
+            android:id="@+id/refresh"
+            style="@style/forward"/>
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myList"
+        >
+
+    </ListView>
+</LinearLayout>

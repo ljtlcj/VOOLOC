@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.add_lock">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+        <TextView
+            android:id="@+id/correct_back"
+            style="@style/correct_back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/lock_list"/>
+
+        <TextView
+            android:id="@+id/setting"
+            android:background="@drawable/set"
+            style="@style/forward"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/add_lock"
+        android:background="#2196F3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/add_lock"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_title" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="48dp"
+            android:background="@drawable/add"/>
+    </RelativeLayout>
+
+    <TextView
+        android:padding="18dp"
+        android:textSize="@dimen/text_emphasize"
+        android:text="@string/locklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+    <View
+        android:padding="16dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorview"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"/>
+        <test.xk_ys_VOOLOC.MyView.RefreshableView
+            android:id="@+id/refreshable_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+            <ListView
+                android:id="@+id/lock_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ListView>
+        </test.xk_ys_VOOLOC.MyView.RefreshableView>
+
+
+    </LinearLayout>
+</LinearLayout>

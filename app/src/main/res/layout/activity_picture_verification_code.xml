@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.picture_verification_code">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/correct_back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+        <TextView
+            style="@style/forward"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/input_picture_number"
+            android:textSize="@dimen/text_title"
+            android:layout_marginTop="12dp"/>
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="70dp"
+            android:textSize="@dimen/text_normal"
+            android:gravity="center"
+            android:text="@string/change_picture"
+            android:textColor="@color/Tip"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                style="@style/verification_code_frame"
+                android:background="@drawable/rectangle" />
+
+            <EditText
+                style="@style/verification_code_frame"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/rectangle" />
+
+            <EditText
+                style="@style/verification_code_frame"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/rectangle" />
+
+            <EditText
+                style="@style/verification_code_frame"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/rectangle" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

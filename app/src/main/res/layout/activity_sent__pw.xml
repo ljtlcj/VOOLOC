@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Sent_PW">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/correct_back"
+            android:background="@drawable/back" />
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/Sent_PW" />
+
+        <TextView style="@style/forward" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Round_shape_style"
+            android:text="1" />
+
+        <TextView
+            style="@style/Round_shape_style_1"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Round_shape_style"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <View style="@style/branch_background" />
+
+        <LinearLayout style="@style/LinearLayout_style">
+
+
+            <TextView
+                android:id="@+id/times"
+                style="@style/TextView_style1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/repeatedly" />
+
+        </LinearLayout>
+
+        <View style="@style/branch_background" />
+
+        <LinearLayout style="@style/LinearLayout_style">
+
+            <TextView
+                android:id="@+id/once"
+                style="@style/TextView_style1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/once" />
+
+        </LinearLayout>
+
+        <View style="@style/branch_background" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/send"
+        style="@style/TextView_style"
+        android:text="@string/sent_password" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="#f12121"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.xk_ys_VOOLOC">
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="20" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".AboutFile.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- android:theme="@style/Theme.AppCompat.Light.NoActionBar"> -->
+        <activity
+            android:name=".MainPage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Authorization_records"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Open_Records"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Select_contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sent_PW"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting_time"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Authorization_Phone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GesturePW1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Select_Lock"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".add_lock"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".input_password"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".legal_provisions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".picture_verification_code"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".search_door_lock"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".select_areas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".setting_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".verify_registration"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lock_of_Setting"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Authorization_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lock_of_address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lock_Name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SetLockName"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".setLockPW"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingPasswordTime"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SetLockAddress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GestureSetting"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".search_door_lock2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Update_lock_time"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".BluetoothGattCallback.BluetoothReceiver">
+            <intent-filter>
+                <action android:name="woolock.bluetooth.result" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".SearchBluetoothService" />
+
+        <activity android:name=".Sent_PW1" />
+        <activity android:name=".Setting_time1" />
+        <activity android:name=".Reset" />
+        <activity android:name=".DeletePage" />
+        <activity android:name=".Setopenlockpassword_page" />
+        <activity android:name=".Updatelocktime_page" />
+        <activity android:name=".Delete_all_password"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Authorization_details">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor"
+        >
+            <TextView
+                android:id="@+id/correct_back"
+                style="@style/correct_back"
+                android:background="@drawable/back"/>
+
+            <TextView
+                style="@style/banerText"
+                android:text="@string/Authorization_details" />
+
+            <TextView
+                style="@style/forward"/>
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="小明"
+        android:textSize="@dimen/text_emphasize" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(二级权限)"
+        android:gravity="center"
+        android:textSize="@dimen/text_emphasize"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="150896235"
+        android:gravity="center"
+        android:textSize="@dimen/text_emphasize"
+        android:layout_marginTop="24dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="44dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/start"
+            android:gravity="center|top"
+            android:textSize="@dimen/text_normal"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/end"
+            android:gravity="center|top"
+            android:textSize="@dimen/text_normal"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:text="17-01-01"
+            android:textSize="@dimen/text_emphasize" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:text="18-05-05"
+            android:textSize="@dimen/text_emphasize"
+            />
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextView_style"
+        android:layout_marginTop="60dp"
+        android:text="@string/delete_permission"
+        android:textSize="@dimen/text_emphasize"/>
+</LinearLayout>

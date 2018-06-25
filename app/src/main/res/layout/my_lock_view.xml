@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:id="@+id/lock_name"
+        android:textSize="@dimen/text_emphasize"
+        android:paddingTop="8dp"
+        android:text="门锁一" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_normal"
+        android:id="@+id/lock_address"
+        android:text="no Lock Address"
+        android:paddingBottom="6dp"
+        />
+
+    <View
+        android:padding="16dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorview"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"/>
+</LinearLayout>

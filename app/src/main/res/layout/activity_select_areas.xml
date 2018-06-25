@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.select_areas">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/correct_back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/selected_areas" />
+
+        <TextView
+            style="@style/forward"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/text_middle_size"
+            android:text="中国"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <View
+            style="@style/branch_background" />
+        <TextView
+            android:textSize="@dimen/text_middle_size"
+            android:text="美国"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <View
+            style="@style/branch_background" />
+        <TextView
+            android:textSize="@dimen/text_middle_size"
+            android:text="英国"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            />
+        <View
+            style="@style/branch_background" />
+    </LinearLayout>
+</LinearLayout>

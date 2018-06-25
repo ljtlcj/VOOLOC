@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Lock_Name">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/Lock_of_address" />
+
+        <TextView
+            style="@style/forward"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="@string/set_lock_password"
+        android:textSize="@dimen/text_title" />
+
+    <test.xk_ys_VOOLOC.MyView.SetLockPasswordView
+        android:id="@+id/my_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp">
+
+    </test.xk_ys_VOOLOC.MyView.SetLockPasswordView>
+
+    <TextView
+        android:id="@+id/next"
+        style="@style/TextView_style"
+        android:layout_marginTop="60dp"
+        android:text="@string/login_button" />
+</LinearLayout>

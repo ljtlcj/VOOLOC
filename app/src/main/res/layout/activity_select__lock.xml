@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Select_Lock">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:id="@+id/lock_name"
+            android:text="@string/Select_Lock" />
+
+        <TextView
+            android:background="@drawable/set"
+            android:id="@+id/lock_setting"
+            style="@style/forward"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        >
+       <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/power"
+            android:layout_width="32dp"
+            android:id="@+id/power_photo"
+            android:layout_height="32dp" />
+        <TextView
+
+            android:id="@+id/power"
+            style="@style/TextView_style7"
+            android:layout_weight="1"
+            android:lines="1"
+            android:text="40%" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    style="@style/TextView_style8"
+                    android:text="@string/start" />
+
+                <TextView
+                    android:id="@+id/start_time"
+                    style="@style/TextView_style8"
+                    android:text="17-01-01" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    style="@style/TextView_style8"
+                    android:text="@string/end" />
+
+                <TextView
+                    android:id="@+id/end_time"
+                    style="@style/TextView_style8"
+                    android:text="18-05-05" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/LinearLayout_style2"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            style="@style/lock_operation"
+            android:background="@drawable/rectangle1"
+            android:id="@+id/open_lock"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/open_lock"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/lock_operation.one"
+                    android:text="@string/open_lock"
+                    android:textSize="@dimen/text_emphasize" />
+
+                <TextView
+                    style="@style/lock_operation.one"
+                    android:layout_height="wrap_content"
+                    android:text="@string/open_lock_news"
+                    android:textSize="@dimen/text_normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/lock_operation"
+            android:background="@drawable/rectangle2"
+            android:id="@+id/send_password"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/sent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/lock_operation.one"
+                    android:text="@string/sending_password"
+                    android:textSize="@dimen/text_emphasize" />
+                <TextView
+                    style="@style/lock_operation.one"
+                    android:text="@string/sent_password_news"
+                    android:textSize="@dimen/text_normal" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/lock_operation"
+            android:background="@drawable/rectangle3"
+            android:id="@+id/giver"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/quanxian"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/lock_operation.one"
+                    android:text="@string/User_authorization"
+                    android:textSize="@dimen/text_emphasize" />
+
+                <TextView
+                    style="@style/lock_operation.one"
+                    android:text="@string/Invited_users"
+                    android:textSize="@dimen/text_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+

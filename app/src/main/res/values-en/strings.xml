@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">VOOLOC</string>
+
+    <string name="Authorization_Records"> Authorization records </string>
+
+    <string name="Open_Records"> Unlock records </string>
+
+    <string name="Select_contact"> Select a contact </string>
+    <string name="set_gesture">Setting Gesture</string>
+    <string name="set_the_reset_password">Setting the Reset Secret</string>
+
+    <string name="net_version">net version</string>
+
+    <string name="input_name">input the name</string>
+    <string name="Setting"> Personal Settings </string>
+
+    <string name="unknown_device">unknown device</string>
+    <string name="Lock_of_Setting"> Lock Settings </string>
+
+    <string name="Correct_pw"> Reset Password </string>
+
+    <string name="Gestures_pw"> Gesture password </string>
+
+    <string name="Update"> Version Update </string>
+
+    <string name="About"> About us </string>
+
+    <string name="Problem"> General </string>
+    <string name="Language">Language</string>
+    <string name="Exit"> Log out </string>
+
+    <string name="Sent_PW"> Send the password </string>
+
+    <string name="User_authorization"> The user authorization </string>
+
+    <string name="Setting_time"> Set time </string>
+
+    <string name="Authorization_Phone"> The authorization number </string>
+
+    <string name="Select_Lock"> Lock one </string>
+
+    <string name="Correct_Lock_name">Reset the name of lock </string>
+
+    <string name="Correct_Lock_address"> Reset the address of lock </string>
+    <string name="Setting_Lock_Pw"> Set the unlock password </string>
+
+    <string name="Open_Lock_records"> Unlocked records </string>
+
+    <string name="Delete_Lock"> Delete lock </string>
+
+    <string name="Authorization_details"> The authorization details </string>
+
+    <string name="Lock_of_address"> Input the information of lock </string>
+
+    <string name="country"> CN </string>
+
+    <string name="area_number"> + 86 </string>
+
+    <string name="login_button"> Next </string>
+
+    <string name="login"> Sign in </string>
+
+    <string name="confirm"> OK </string>
+
+    <string name="setting_password"> Set the password </string>
+
+    <string name="input_new_password"> Please enter a new password </string>
+
+    <string name="input_password"> Please enter your password </string>
+
+    <string name="input_picture_number"> Please enter the number in the picture </string>
+
+    <string name="change_picture"> Not clear,Change another </string>
+
+    <string name="test"> update log: \n         WooLock v4.0.10 October 6, 2017 \n         1. Added door lock authorization management \n         2. Fix some bugs in the door lock management \n\n         WooLock v4.0.9 October 3, 2017 \n         1. Add a custom timeliness lock password \n         WooLock v4.0.8 October 3, 2017 \n         1. Add a new door lock function \n         2. Fix some bugs in the progress bar \n         3. Fix some bugs that exist for adding locks         4. Enhance system stability \n \n         Android development team members:\n         Ke Dongyu (17875511856,\n         \t\t\t\t\t\t\t1198611857@qq.com)\n         Peng Jinchang (17875511895)\n         Chen Weifeng (17875511892)\n     </string>
+
+    <string name="agress"> Agree </string>
+
+    <string name="disagress"> Disagree </string>
+
+    <string name="selected_areas"> Region </string>
+
+    <string name="lock"> Lock </string>
+
+    <string name="locklist"> The list of lock </string>
+
+    <string name="add_lock"> Add locks </string>
+
+    <string name="search_door_lock"> Search the lock </string>
+
+    <string name="search_lock"> Search the lock </string>
+
+    <string name="set_address"> Set the lock address </string>
+
+    <string name="finish"> Finish </string>
+
+    <string name="open_lock"> Unlock </string>
+
+    <string name="open_lock_news"> Click to unlock within three meters</string>
+
+    <string name="Invited_users"> Click to invite the user </string>
+
+    <string name="sending_password"> Send the password </string>
+
+    <string name="next">NEXT</string>
+    <string name="sent_password_news"> Click to send the password </string>
+
+    <string name="no_internet"> No network! Please open the network </string>
+
+    <string name="JumpAfter2s"> Jump after 2 seconds </string>
+
+    <string name="unknown_error"> Unknown error </string>
+
+    <string name="no_write_phone"> The mobile number is not filled </string>
+
+    <string name="phone_number">Log In By Mobile Number</string>
+
+    <string name="lock_list">Lock list</string>
+
+    <string name="input_phone_number">Enter your E-mail</string>
+    <string name="input_contract">Enter your E-mail or cell Phone</string>
+
+    <string name="get_contacts">Get contact from your address book</string>
+    <string name="send_password_by_Wechat">send the password to friend in Facebook</string>
+
+    <string name="delete_permission">Delete permission</string>
+
+    <string name="input_password1">Enter password</string>
+
+    <string name="password">Password</string>
+
+    <string name="forget_password">Forgot password</string>
+
+    <string name="seting_lock_name">Please set the name of lock </string>
+
+    <string name="once">Once</string>
+
+    <string name="repeatedly">Many times</string>
+
+    <string name="sent_password">Send password</string>
+
+    <string name="set_the_door_lock_name">Please set the name of lock</string>
+
+    <string name="from_now_on">From now on</string>
+
+    <string name="Enter_confirmation_code">Enter the Verification code</string>
+
+    <string name="Phone_number_login">Log In Via Mobile Number</string>
+    <string name="delete_all_password">Clear all passwords</string>
+
+</resources>

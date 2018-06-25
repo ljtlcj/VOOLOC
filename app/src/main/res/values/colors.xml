@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bannercolor">#343438</color>
+    <color name="color">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white_1">#bab7b7</color>
+    <color name="Text_color">#888888</color>
+    <color name="Text_color1">#1935d4</color>
+    <color name="colorview">#9f9a9a</color>
+    <color name="colorhint" >#cbcbcb</color>
+    <color name="danger">#ffa8a8</color>
+    <color name="Tip">#576b95</color>
+    <color name="Tip1">#353535</color>
+    <color name="tip">#c6f4e8</color>
+    <color name="background">#e6e5e5</color>
+    <color name="view_color">#bab7b7</color>
+    <color name="line">#4DB6AC</color>
+</resources>

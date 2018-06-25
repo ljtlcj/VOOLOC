@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.xk_ys_VOOLOC.Select_contact">
+
+    <RelativeLayout
+        style="@style/RelativeLayout_style"
+        android:background="@color/bannercolor">
+
+        <TextView
+            android:id="@+id/correct_back"
+            style="@style/correct_back"
+            android:background="@drawable/back"/>
+
+        <TextView
+            style="@style/banerText"
+            android:text="@string/Select_contact" />
+
+        <TextView
+            style="@style/forward"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/LinearLayout_style"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="小明"
+            style="@style/Contact_style"/>
+
+    </LinearLayout>
+    <View
+        style="@style/branch_background" />
+
+    <LinearLayout
+        style="@style/LinearLayout_style"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="小红"
+            style="@style/Contact_style"/>
+
+    </LinearLayout>
+    <View
+        style="@style/branch_background" />
+
+    <LinearLayout
+        style="@style/LinearLayout_style"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="小张"
+            style="@style/Contact_style"/>
+
+    </LinearLayout>
+    <View
+        style="@style/branch_background" />
+</LinearLayout>
